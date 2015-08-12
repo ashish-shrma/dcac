@@ -1,4 +1,5 @@
 <?php
+/*
 include '_database/database.php';
 
 $file_handle = fopen("Data.csv", "r");
@@ -49,6 +50,6 @@ $line_of_text = fgetcsv($file_handle, 1024);
     $sql="INSERT INTO user(user_prefix,user_firstname,user_lastname,user_email,user_username,user_password,user_joindate,user_avatar,user_profession,user_papers) VALUES('$prefix','$first_name','$last_name','$line_of_text[4]','$line_of_text[4]','default_password',CURRENT_TIMESTAMP,'default.jpg','$line_of_text[3]','$line_of_text[1]')";
         mysqli_query($database,$sql)or die(mysqli_error($database));
 print $line_of_text[1] .",". $prefix.",".$first_name.",".$last_name.",". $line_of_text[3].",". $line_of_text[4]. "<BR>";
-}
+} */
 
 ?>

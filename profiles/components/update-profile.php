@@ -95,6 +95,7 @@
         $user_password=$_REQUEST['user_password'];
         $user_profession=$_REQUEST['user_profession'];
         $user_address=$_REQUEST['user_address'];
+        $user_address2=$_REQUEST['user_address2'];
         $user_shortbio=$_REQUEST['user_shortbio'];   
         $user_longbio=$_REQUEST['user_longbio'];   
         $user_dob=$_REQUEST['user_dob'];
@@ -104,7 +105,7 @@
         $user_contact=$_REQUEST['user_contact'];
         $user_papers=$_REQUEST['user_papers'];
         $user_prefix=$_REQUEST['user_prefix'];
-        $sql3="UPDATE user SET user_firstname='$user_firstname',user_lastname='$user_lastname',user_profession='$user_profession',user_address='$user_address',user_email='$user_email',user_password='$user_password',user_shortbio='$user_shortbio',user_longbio='$user_longbio',user_dob='$user_dob',user_gender='$user_gender',user_country='$user_country',user_website='$user_website',user_contact='$user_contact',user_papers='$user_papers',user_prefix='$user_prefix' WHERE user_username = '$temp'";
+        $sql3="UPDATE user SET user_firstname='$user_firstname',user_lastname='$user_lastname',user_profession='$user_profession',user_address='$user_address',user_address2='$user_address2',user_email='$user_email',user_password='$user_password',user_shortbio='$user_shortbio',user_longbio='$user_longbio',user_dob='$user_dob',user_gender='$user_gender',user_country='$user_country',user_website='$user_website',user_contact='$user_contact',user_papers='$user_papers',user_prefix='$user_prefix' WHERE user_username = '$temp'";
             mysqli_query($database,$sql3)or die(mysqli_error($database));
             header("location:../edit-profile.php?user_username=$temp&request=profile-update&status=success");
     }    

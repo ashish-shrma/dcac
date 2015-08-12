@@ -218,6 +218,7 @@ $sql = "SELECT * FROM user where user_id='$user_id'";
 					          				<address>
 											  	<strong class="text-uppercase" ><?php echo $row['user_firstname']." ".$row['user_lastname']?></strong><br>
 											  	<?php echo $row['user_address']?>
+											  	<br><?php echo $row['user_address2']?>
 											  	<br><abbr title="Phone">P:</abbr> <?php echo $row['user_contact']?>
 											  <br>	<a href="mailto:#"><?php echo $row['user_email']?></a>
 											</address>

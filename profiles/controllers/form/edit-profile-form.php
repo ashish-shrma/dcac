@@ -22,6 +22,10 @@
                     <input type="text" class="form-control" placeholder="<?php echo $rws['user_lastname'];?>" name="user_lastname" value="<?php echo $rws['user_lastname'];?>">
                 </div>
                 <div class="form-group float-label-control">
+                    <label for="">Department</label>
+                    <input type="text" class="form-control" placeholder="<?php echo $rws['user_papers'];?>" name="user_papers" value="<?php echo $rws['user_papers'];?>" id="papers">    
+                </div> 
+                <div class="form-group float-label-control">
                     <label for="">Avatar</label>
                     <input name="ImageFile" type="file" id="uploadFile"/>
                     <div class="col-md-6">
@@ -59,6 +63,10 @@
                 <div class="form-group float-label-control">
                     <label for="">Email</label> 
                     <input type="text" class="form-control" placeholder="<?php echo $rws['user_email'];?>" name="user_email" value="<?php echo $rws['user_email'];?>">
+                </div> 
+                <div class="form-group float-label-control">
+                    <label for="">Designation </label>
+                    <input type="text" class="form-control" placeholder="<?php echo $rws['user_profession'];?>" name="user_profession" value="<?php echo $rws['user_profession'];?>" id="profession">    
                 </div> 
     <!-- RESUME UPLOAD -->
      <div class="form-group float-label-control">
@@ -106,18 +114,15 @@
                 </div>
             </div>
             <div class="col-md-6">
-               <div class="form-group float-label-control">
-                    <label for="">Department</label>
-                    <input type="text" class="form-control" placeholder="<?php echo $rws['user_papers'];?>" name="user_papers" value="<?php echo $rws['user_papers'];?>" id="papers">    
-                </div> 
-                <div class="form-group float-label-control">
-                    <label for="">Designation </label>
-                    <input type="text" class="form-control" placeholder="<?php echo $rws['user_profession'];?>" name="user_profession" value="<?php echo $rws['user_profession'];?>" id="profession">    
-                </div> 
+                
                 
                 <div class="form-group float-label-control">
                     <label for="">Address</label>
                     <input type="text" class="form-control" placeholder="<?php echo $rws['user_address'];?>" name="user_address" value="<?php echo $rws['user_address'];?>">    
+                </div>
+                   <div class="form-group float-label-control">
+                    <label for="">Address line 2</label>
+                    <input type="text" class="form-control" placeholder="<?php echo $rws['user_address2'];?>" name="user_address2" value="<?php echo $rws['user_address2'];?>">    
                 </div>
                 <div class="form-group float-label-control">
                     <label for="">Phone number</label>
