@@ -3,19 +3,7 @@
 <div class="container">
     <div class="row">
       <div class="main">
-          <h3 style="color:#65aeee;">Please Log In <!--or <a href="index.php">Sign Up</a>--></h3>
-          <!-- <div class="row">
-              <div class="col-xs-6 col-sm-6 col-md-6">
-                  <button class="btn btn-lg btn-primary btn-block ladda-button" data-style="zoom-in" >Facebook</button>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-6">
-                  <button class="btn btn-lg btn-info btn-block ladda-button" data-style="zoom-in" >Google</button>
-              </div>
-          </div>
-          <div class="login-or">
-              <hr class="hr-or">
-              <span class="span-or">or</span>
-          </div> -->
+          <h3 style="color:#65aeee;">Faculty Log In</h3>
           <form role="form" action="components/login-process.php" method="post" name="login">
               <div class="form-group">
                   <label for="inputUsernameEmail">Username</label>
